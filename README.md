@@ -4,8 +4,8 @@ Realization of Normal Mapping, Parallax Mapping, Relief Mapping with OpenGL
 The part of Relief Mapping : Achieved Self-occusion But no Self-shadowing  
   
 Run test platform: Windows 10, Visual Studio 12 2013  
-OpenGL version: Version 3.3 Core. Encapsulation: GLAD  
-Library used: GLFW, GLM  
+OpenGL version: **Version 3.3 Core**. Encapsulation: **GLAD**  
+Library used: **GLFW**, **GLM**  
   
 ****
 ### How to use example program:  
@@ -27,11 +27,11 @@ The scroll wheel can control the focal length of the camera.
   
 ****
 ### Explanation:  
-Camera.h  
-Shader.h  
-Shader.cpp  
+**Camera.h**  
+**Shader.h**  
+**Shader.cpp**  
 These are the two encapsulated classes I used directly(For using camera and reading shaders).  
-stb_image.h  
+**stb_image.h**  
 This is a header file I use directly to read different image formats.  
   
 All vertex shaders are in the folder called vertex_shader.  
