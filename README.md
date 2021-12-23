@@ -7,6 +7,7 @@ Run test platform: Windows 10, Visual Studio 12 2013
 OpenGL version: Version 3.3 Core. Encapsulation: GLAD  
 Library used: GLFW, GLM  
   
+****
 ### How to use example program:  
 Under the same folder, you can find an .exe file named: Various_Mapping_Test  
 Open it, use your keyboard:  
@@ -24,6 +25,7 @@ And also you can use your mouse:
 The cursor movement can control the rotation of the camera lens.  
 The scroll wheel can control the focal length of the camera.  
   
+****
 ### Explanation:  
 Camera.h  
 Shader.h  
@@ -36,10 +38,12 @@ All vertex shaders are in the folder called vertex_shader.
 All fragment shaders are in the folder called fragment_shader.  
 The folder called img contains all images I used: wood_texture, toyBox_depth, toyBox_normal.  
 
+****
 ### Result:  
 ![image](https://github.com/Oitron/Relief-Mapping/blob/master/presentation/result_01.png)
 ![image](https://github.com/Oitron/Relief-Mapping/blob/master/presentation/result_02.png)
   
+****
 ### Source:  
 [1]	F. Policarpo, M. M. Oliveira, and J. L. D. Comba, “Real-Time Relief Mapping on Arbitrary Polygonal Surfaces,” p. 8.  
 
